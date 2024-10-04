@@ -152,10 +152,10 @@ document.getElementById("rsvpForm").addEventListener("submit", function(event) {
   var formData = new FormData(this);
   var nombre = formData.get("nombre");
   var asistencia = formData.get("asistencia");
-  var mensaje = "¡Hola, soy " + nombre + "! Quiero confirmar que " + (asistencia === "Sí" ? "asistiré" : "no podré asistir") + " a la fiesta";
+  var mensaje = "¡Hola, soy " + nombre + "! Quiero confirmar que " + (asistencia === "Sí" ? "asistiré" : "no podré asistir") + " a la fiesta tropical";
   
   // Asegúrate de que tu número de teléfono esté en el formato correcto
-  var numeroTelefono = "573016592265"; // Sin el signo "+" y sin espacios
+  var numeroTelefono = "573183057753"; // Sin el signo "+" y sin espacios
   
   // Enlace para WhatsApp
   var whatsappLink = "https://wa.me/" + numeroTelefono + "?text=" + encodeURIComponent(mensaje);
